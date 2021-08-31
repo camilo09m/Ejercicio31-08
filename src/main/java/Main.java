@@ -68,7 +68,6 @@ public class Main {
             if (validarPrimo(arrNum[i])){//si el numero es primo se almacena en un arreglo el cual tiene el mismo largo que el arreglo de numeros seguidos
                 arrprimo[cont]=arrNum[i];
                 cont++;//se utiliza el contador para identificar la posicion en la cual guardar el arreglo.
-                System.out.println(cont);
             }
         }
         int[] primos = new int[cont];
